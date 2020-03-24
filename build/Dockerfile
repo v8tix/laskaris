@@ -1,4 +1,4 @@
-FROM v8tix/spinrad:0.0.2.v20200309.274ebe5
+FROM v8tix/spinrad:0.0.3.v20200324.722f9aa
 LABEL MAINTAINER="V8TIX"
 LABEL MAIL="info@v8tix.com"
 RUN ["/bin/bash", "-c", "/home/v8tix/libraries/zemni/system/cleanup/cleanup.sh"]
