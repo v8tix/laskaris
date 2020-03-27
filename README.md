@@ -4,7 +4,7 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="display: block; border-width:0; float: right" align="left" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a><br/>
 
-Welcome to the Laskaris project. This image is part of the [Drako](https://github.com/v8tix/drako) project.
+Welcome to the Laskaris project. This image is part of the [k8sb](https://github.com/v8tix/k8sb) project.
 
 #### Prerequisites
 * Docker Engine installed.
@@ -14,7 +14,7 @@ Welcome to the Laskaris project. This image is part of the [Drako](https://githu
 2. Common operations.
 ### 1. The Laskaris image contexts.
 * The following figure shows these contexts:
-![laskaris image](resources/laskaris-contexts.png)
+![laskaris contexts](resources/laskaris-contexts.png)
 * In this case Laskaris only uses two contexts: 
   * Configuration and packages: 
     * Laskaris adds and configures [Amazon Corretto 11 JDK](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html).  
@@ -29,7 +29,7 @@ Welcome to the Laskaris project. This image is part of the [Drako](https://githu
   * configuration:
     * Here you can change the image name and its tag. 
   * build.
-    * The Docker file and the container artifacts need must be included here.
+    * The Docker file, and the container artifacts need must be included here.
     * Also in this directory you can find the build.sh script. Execute it if you plan to build this image. 
     * Once the image was built, you can go to the executables directory.
   * executables.
@@ -43,7 +43,8 @@ Welcome to the Laskaris project. This image is part of the [Drako](https://githu
         * Otherwise execute the delete.sh script instead.
 ## Authors
 * Initial work
-  * V8TIX - info@v8tix.com   
+
+![v8tix logo](resources/v8tix-logo.jpg) <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Contact us](mailto:info@v8tix.com)</p> 
 ## License  
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="display: block; border-width:0; float: right" align="left" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>&nbsp;</a>This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
   
